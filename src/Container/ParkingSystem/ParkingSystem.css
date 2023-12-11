@@ -1,0 +1,92 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.parking-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.slot {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #fff;
+}
+
+.slot.occupied {
+  background-color: #f00;
+  color: #fff;
+}
+
+.slot.empty:hover {
+  background-color: #ccc;
+}
+
+.slot.occupied:hover {
+  background-color: #f00;
+} 
+
+.parkingsystem {
+  
+  background-image: url('./image.jpg');
+  background-repeat: no-repeat;
+  background-size: 1550px 3000px;
+  
+  text-align: center;
+}
+
+img {
+  border: 5px solid #205ab7;
+  padding: 10px;
+  display: block;
+  margin-left: 0%;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 96px;
+  box-shadow: 33px 24px 22px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+img:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+.pagedesign{
+  padding: 10px;
+  display: block;
+  margin-left: 22%;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 96px;
+  text-align: center;
+  margin-right: 33px;
+  margin-top: 22px;
+  
+
+}
+.bmscepark{
+  text-align: center;
+  background-color: #90abd5;
+  box-shadow: 23px 14px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 32px;
+}
+
+.avslots{
+  font-size: 28px;
+  color: #205ab7;
+  margin-bottom: 42px;
+}
